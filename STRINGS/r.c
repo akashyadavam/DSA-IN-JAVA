@@ -119,7 +119,7 @@ void main(){
 //     sum=term+sum;
 //     i++;
 //    }
-//    printf("sum is %ld",(int)sum);
+//    printf("sum is %ld",sum);
 
 
 
@@ -213,7 +213,9 @@ void main(){
 
 
 
-
+for(int i=1;i<=2;i++){
+    printf("%d\n",i);
+}
 
 
 
