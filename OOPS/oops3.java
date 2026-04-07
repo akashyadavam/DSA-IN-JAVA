@@ -9,7 +9,7 @@ class students{
     String  name;
     int rollno;
     students(String hoolo){//constructor
-        this.name=hoolo;
+        this.name=hoolo;//Yahan this ka matlab hai 0x77 wala object.
         System.out.print(name);//pahke ye chala class s1 ka name hollo ke string ke equal hai
     }
 }
