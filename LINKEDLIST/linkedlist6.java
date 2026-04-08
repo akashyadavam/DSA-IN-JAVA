@@ -90,15 +90,7 @@ class linkedlist{
         }
 
     }
-     void  deleteAtHead(){
-    if(head==null){
-       System.out.println("list is empty"); 
-       return;
-    }
-    head=head.next;
-    if(head==null) tail=null;
- 
-  }
+
     void delete(int idx){
         if(idx<0||idx>=size){
             System.out.println("farzi");
@@ -117,6 +109,38 @@ class linkedlist{
         size--;
 
 
+    }
+     void  deleteAttail(){
+    if(tail==null){
+        System.out.println("error");
+    }
+    if (head == tail) { // Sirf ek hi node hai
+        head = tail = null;
+        size = 0;
+        return;
+    }
+        Node temp=head;
+        while(temp.next!=tail){
+            temp=temp.next;//2nd last tak gye
+        }
+        temp.next=null;
+        tail=temp;
+        size--;
+    }
+      void  deleteAtHead(){
+        if(head==null){
+            System.out.println("err");
+        }
+        if (head == tail) { // Sirf ek hi node hai
+        head = tail = null;
+        size = 0;
+        return;
+    }
+    if(size>=2){
+         head=head.next;
+         size--;
+
+    }
     }
 }
 
@@ -138,8 +162,11 @@ ll.insert(2,40);
 ll.display();
 ll.delete(2);
 ll.display();
+ ll.deleteAttail();
+  ll.deleteAtHead();
 
 
         
     }
 }
+
