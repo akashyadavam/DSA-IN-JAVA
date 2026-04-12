@@ -50,6 +50,7 @@ public class LLImplementationOfStack {
         st.push(6);
         st.push(7);
         st.push(8);
+        // System.out.println(st);//node bnaye hai address print honga 
         st.display();
         st.pop();
          st.display();
