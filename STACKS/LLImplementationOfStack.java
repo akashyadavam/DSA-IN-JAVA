@@ -57,14 +57,6 @@ public class LLImplementationOfStack {
         st.pop();
          st.display();
 
-
-
-
-
-
-
-
-
     }
     
 }
