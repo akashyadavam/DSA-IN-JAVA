@@ -19,7 +19,7 @@ class Mystack{
         len--;
         return x;
     }
-    void push(int ele){
+    void push(int ele){//addathead kr rahe hain
         Node t=new Node(ele);
         if(len==0) head=t;
         else{
@@ -54,6 +54,7 @@ public class LLImplementationOfStack {
         st.display();
         st.pop();
          st.display();
+         //linkedlist mein head aur stack ka top peak excess kr sakte hain
 
     }
     
