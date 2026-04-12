@@ -25,8 +25,6 @@ public class ReverseOfStack {
         //     i++;
         // }
         // System.out.println(st);
-
-
         //reverse stack recursively
         System.out.println(st);
         reverse(st);
