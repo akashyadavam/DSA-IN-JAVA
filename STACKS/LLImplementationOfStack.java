@@ -26,11 +26,9 @@ class Mystack{
         t.next=head;
         head=t;}
         len++;
-
     }
      int size (){
         return len;
-
      }
      void display(){
         Node temp=head;
@@ -40,7 +38,6 @@ class Mystack{
         }
         System.out.println();
      }
-
 }
 
 public class LLImplementationOfStack {
