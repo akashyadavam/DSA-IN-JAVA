@@ -1,4 +1,4 @@
-public class removeduplicate {
+public class Removeduplicate {
     public static void main(String[] args) {
         String str="apnacollege";
         
