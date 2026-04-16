@@ -14,6 +14,7 @@ public class BasicQuestionOfStacks {
         System.out.println(st.size());
         while(st.size()>0){
             int s=st.pop();
+            System.out.print(s+" ");
             st2.push(s);//yaha ulta store;
 
         }
@@ -28,7 +29,7 @@ public class BasicQuestionOfStacks {
          //get index 2
          // 
          int indx=2;
-         while(st.size()>indx+1){
+         while(st.size()>indx+1){//matlab 3 tak size hona chahiye index 3 ko get krne ke liye
             st2.push(st.pop());
 
          }
