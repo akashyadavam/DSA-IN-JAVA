@@ -16,15 +16,15 @@ public class ReverseOfStack {
         st.push(7);
         st.push(8);
         System.out.println(st);
-        // while(st.size()>0){
-        //     ans.add(st.pop());
-        // }
-        // int i=0;
-        // while(i<ans.size()){
-        //     st.push(ans.get(i));
-        //     i++;
-        // }
-        // System.out.println(st);
+        while(st.size()>0){
+            ans.add(st.pop());
+        }
+        int i=0;
+        while(i<ans.size()){
+            st.push(ans.get(i));
+            i++;
+        }
+        System.out.println(st);
         //reverse stack recursively
         System.out.println(st);
         reverse(st);
@@ -33,7 +33,7 @@ public class ReverseOfStack {
 
     }
     static void reverse( Stack<Integer> st){
-        if(st.size()<=1) return;
+        if(st.size()<1) return;
         int top=st.pop();
         reverse(st);
          pushatbottom(st,top);
