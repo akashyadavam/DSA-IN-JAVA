@@ -11,7 +11,7 @@ public class BuiltinMethods {
         System.out.println(s.endsWith("ita"));//remember  space bhi count hota hai string mein
        
 
-
+ 
 
 String a="akash";
 String b=" yadav";
