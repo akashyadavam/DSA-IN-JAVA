@@ -5,10 +5,10 @@ class Node{
      Node(int val){
         this.val=val;
      }
-}
+ }
 public class Implementation {
     // 3
-    public static void main(String[] args) {
+    public static void main(String[] args) {//LOGN TRAVERSE KA TC IN BT
         Node a=new Node(3);
         Node b=new Node(4);
         Node c=new Node(2);
@@ -31,6 +31,9 @@ public class Implementation {
              System.out.println(max(a));
              System.out.println(min(a));
             System.out.println(level(a));
+             preorder(a);System.out.println();
+              postorder(a);System.out.println();
+              inorder(a);
     }
     private  static void display(Node root){ 
         if(root==null) return;
@@ -80,6 +83,31 @@ public class Implementation {
        return 1+Math.max(level(root.left),level(root.right));
     //    
         
+
+    }
+      private  static void preorder(Node root){ 
+        if(root==null) return;
+        System.out.print(root.val+" ");
+        preorder(root.left);
+        preorder(root.right);
+
+
+    }
+    private  static void postorder(Node root){ 
+        if(root==null) return;
+       
+        postorder(root.left);
+        postorder(root.right); System.out.print(root.val+" ");
+
+
+    }
+    private  static void inorder(Node root){ 
+        if(root==null) return;
+        inorder(root.left);
+        System.out.print(root.val+" ");
+      
+        inorder(root.right);
+
 
     }
     
