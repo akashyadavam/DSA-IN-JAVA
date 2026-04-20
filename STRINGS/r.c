@@ -213,10 +213,145 @@ void main(){
 
 
 
-for(int i=1;i<=2;i++){
-    printf("%d\n",i);
-}
+// for(int i=1;i<=2;i++){
+//     printf("%d\n",i);
+// }
 
+
+
+
+
+// unit 3 array and fn 
+// array ko input and then print ;
+// int n;
+//  scanf("%d",&n);
+// int arr[n];
+// for(int i=0;i<n;i++){
+//     scanf("%d",&arr[i]);
+// }
+// for(int i=0;i<n;i++){
+//     printf("%d\n",arr[i]);
+// }
+
+
+// largest elemnt 
+// int n;int max;int i;
+//  scanf("%d",&n);
+// int arr[n];
+// for(i=0;i<n;i++){
+//     scanf("%d",&arr[i]);
+//     max=arr[i];
+//     if(arr[i]>max){
+//         max=arr[i];
+//     }
+// }
+// printf("%d", max);
+
+// selection sort
+// int n;int i,mindx,min,j;
+//  scanf("%d",&n);
+// int arr[n];
+// for( i=0;i<n;i++){
+//     scanf("%d",&arr[i]);
+// }
+
+// for( i=0;i<n-1;i++){
+//     for( j=i;j<n;j++){
+//          min = arr[i]; 
+//         mindx = i;
+        
+//         if(arr[j]<min){
+//             min=arr[j];
+//             mindx=j;
+//         }}
+//         int temp=arr[i];
+//         arr[i]=arr[mindx];
+//         arr[mindx]=temp;
+    
+
+// }
+// for(int i=0;i<n;i++){
+//     printf("%d\n",arr[i]);
+// }
+
+
+
+
+// sort in descending order
+
+// int n;int i,j;
+//  scanf("%d",&n);
+// int arr[n];
+// for( i=0;i<n;i++){
+//     scanf("%d",&arr[i]);
+// }
+
+// for( i=0;i<n-1;i++){
+//     for( j=i+1;j<n;j++){
+        
+        
+//         if(arr[j]>arr[i]){
+           
+//         int temp=arr[i];
+//         arr[i]=arr[j];
+//         arr[j]=temp;}
+    
+
+// }
+// }
+// for(int i=0;i<n;i++){
+//     printf("%d\n",arr[i]);
+// }
+
+
+
+// ascending
+// int n;int i,j;
+//  scanf("%d",&n);
+// int arr[n];
+// for( i=0;i<n;i++){
+//     scanf("%d",&arr[i]);
+// }
+
+// for( i=0;i<n-1;i++){
+//     for( j=i+1;j<n;j++){
+        
+        
+//         if(arr[j]<arr[i]){
+           
+//         int temp=arr[i];
+//         arr[i]=arr[j];
+//         arr[j]=temp;}
+    
+
+// }
+// }
+// for(int i=0;i<n;i++){
+//     printf("%d\n",arr[i]);
+// }
+
+
+// part 2 2d array addition sub multiply print karn take input yahi sab karo pahle 
+
+// int m,n,i,j;
+
+//  scanf("%d",&n);
+//  scanf("%d",&m);int arr[m][n];
+
+
+// for( i=0;i<m;i++){
+//     for( j=0;j<n;j++){
+
+//     scanf("%d",&arr[i][j]);}
+// }
+// for( i=0;i<m;i++){
+//     for( j=0;j<n;j++){
+
+//     printf("%d\t",arr[i][j]);}
+//     printf("\n");
+// }
+
+// add/multiply/divide 
 
 
 
