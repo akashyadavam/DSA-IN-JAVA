@@ -351,11 +351,131 @@ void main(){
 //     printf("\n");
 // }
 
+
+
+
+
+// int m,n,i,j;
+
+//  scanf("%d",&n);
+//  scanf("%d",&m);int arr[m][n];
+
+
+// for( i=0;i<m;i++){
+//     for( j=0;j<n;j++){
+
+//     scanf("%d",&arr[i][j]);}
+// }
+// // transpose ab kiya
+// for( i=1;i<m;i++){
+//     for( j=0;j<i;j++){
+//       int temp=arr[i][j];
+//       arr[i][j]=arr[j][i];
+//       arr[j][i]=temp;
+   
+// }}
+//  for( i=0;i<m;i++){
+//     for( j=0;j<n;j++){
+
+//     printf("%d\t",arr[i][j]);}
+//     printf("\n");
+// }
+
 // add/multiply/divide 
+// int m,n,i,j;
+
+//  scanf("%d",&n);
+//  scanf("%d",&m);int a[m][n],b[m][n],c[m][n];
 
 
+// for( i=0;i<m;i++){
+//     for( j=0;j<n;j++){
+
+//     scanf("%d",&a[i][j]);}
+// }
+// for( i=0;i<m;i++){
+//     for( j=0;j<n;j++){
+
+//     scanf("%d",&b[i][j]);}
+// }
+// for( i=0;i<m;i++){
+//     for( j=0;j<n;j++){
+
+//     c[i][j]=a[i][j]+b[i][j];}
+// }
+
+//  for( i=0;i<m;i++){
+//     for( j=0;j<n;j++){
+
+//     printf("%d\t",c[i][j]);}
+//     printf("\n");
+// }
 
 
+// multiply
+// int m,n,i,j;
+
+//  scanf("%d",&n);
+//  scanf("%d",&m);int a[m][n],b[m][n],c[m][n];
+
+
+// for( i=0;i<m;i++){
+//     for( j=0;j<n;j++){
+
+//     scanf("%d",&a[i][j]);}
+// }
+// for( i=0;i<m;i++){
+//     for( j=0;j<n;j++){
+
+//     scanf("%d",&b[i][j]);}
+// }
+// for( i=0;i<m;i++){
+//     for( j=0;j<n;j++){
+//       c[i][j]=0;
+//       for( int k=0;k<n;k++){
+//         c[i][j]+=a[i][k]*b[k][j];
+//       }
+
+
+//     }
+// }
+
+//  for( i=0;i<m;i++){
+//     for( j=0;j<n;j++){
+
+//     printf("%d\t",c[i][j]);}
+//     printf("\n");
+// }
+
+
+int m,n,i,j;
+
+ scanf("%d",&n);
+ scanf("%d",&m);int a[m][n],b[m][n],c[m][n];
+
+
+for( i=0;i<m;i++){
+    for( j=0;j<n;j++){
+
+    scanf("%d",&a[i][j]);}
+}
+for( i=0;i<m;i++){
+    for( j=0;j<n;j++){
+
+    scanf("%d",&b[i][j]);}
+}
+for( i=0;i<m;i++){
+    for( j=0;j<n;j++){
+
+    c[i][j]=a[i][j]-b[i][j];}
+}
+
+ for( i=0;i<m;i++){
+    for( j=0;j<n;j++){
+
+    printf("%d\t",c[i][j]);}
+    printf("\n");
+}
 
 
 
