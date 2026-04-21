@@ -52,6 +52,7 @@ public class Implementation {
     }
      private  static int sum(Node root){
         if(root==null) return 0;
+        // if(root.left==null&&root.rigth==null) return 1
        return root.val+sum(root.left)+sum(root.right);
     //    
         
