@@ -76,7 +76,6 @@ public class Implementation {
         if(root==null) return Integer.MAX_VALUE;
         return Math.min(root.val, Math.min(min(root.left),min(root.right)));
     //    
-        
 
     }
      private  static int level(Node root){
