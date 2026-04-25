@@ -28,40 +28,44 @@ public class ZigZagTraversal {
         b.right = e;
         c.left = f;
         c.right = g;
-        e.right = h;levelorder(a);
+        // e.right = h;levelorder(a);
 
-
+          ArrayList<Integer> ans  = levelorder(a);
+          System.out.print(ans);
     }
-    private static void levelorder(Node root) {
+    private static ArrayList<Integer> levelorder(Node root) {
     Queue<Node> q = new LinkedList<>();
     q.add(root);
+ArrayList<Integer> a=new ArrayList<>();
+    // boolean leftToRight = true;
 
-    boolean leftToRight = true;
+    // while (!q.isEmpty()) {
+    //     int size = q.size();
+    //     ArrayList<Integer> level = new ArrayList<>();
 
-    while (!q.isEmpty()) {
-        int size = q.size();
-        ArrayList<Integer> level = new ArrayList<>();
+    //     for (int i = 0; i < size; i++) {
+    //         Node front = q.remove();
 
-        for (int i = 0; i < size; i++) {
-            Node front = q.remove();
+    //         if (leftToRight) {
+    //             level.add(front.val);
+    //         } else {
+    //             level.add(0, front.val);
+    //         }
 
-            if (leftToRight) {
-                level.add(front.val);
-            } else {
-                level.add(0, front.val); // 👈 reverse
-            }
+    //         if (front.left != null) q.add(front.left);
+    //         if (front.right != null) q.add(front.right);
+    //     }
 
-            if (front.left != null) q.add(front.left);
-            if (front.right != null) q.add(front.right);
-        }
+       
+    //     for (int x : level) {
+    //         System.out.print(x + " ");
+    //     }
+    //     System.out.println();
 
-        // 👇 yahin print karo (inside while)
-        for (int x : level) {
-            System.out.print(x + " ");
-        }
-        System.out.println();
+    //     leftToRight = !leftToRight;
+    // }
 
-        leftToRight = !leftToRight;
-    }
+  
+
 }
 }
