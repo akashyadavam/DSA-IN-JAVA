@@ -39,7 +39,7 @@ public class FullBinaryTree {
         
          if(node.left==null&&node.right==null) return true;
          if(node.left!=null&&node.right!=null){
-        return isFullTree(node.left)&&isFullTree(node.right);}
+        return isFullTree(node.left)&&isFullTree(node.right);}//agar ye hit huwa to true a gyega varna ek child node sidha niche false
         return false;
     }
     
