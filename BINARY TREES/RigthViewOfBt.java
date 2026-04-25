@@ -35,7 +35,7 @@ public class RigthViewOfBt {
         System.out.print(ans+" ");
         
     }
-     private static  void view(Node root,int level,ArrayList<Integer>ans){
+     private static  void view(Node root,int level,ArrayList<Integer>ans){ 
         if(root==null) return;
         if(level>=ans.size()) ans.add(root.val);
         else ans.set(level,root.val);
