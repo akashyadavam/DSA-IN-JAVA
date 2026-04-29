@@ -42,15 +42,10 @@ class Node{
             while(st.size()>0){
                 Node top=st.pop();
                 ans.add(top.val);
-                if(top.left!=null)st.push(top.right);
-                 if(top.right!=null)st.push(top.left);
+                if(top.right!=null)st.push(top.right);
+                 if(top.left!=null)st.push(top.left);
 
             }
-
-
-
-
-
 
        return ans; 
     }
