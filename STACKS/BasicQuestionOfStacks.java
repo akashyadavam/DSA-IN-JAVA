@@ -2,8 +2,8 @@ package STACKS;
 import java.util.Stack;
 public class BasicQuestionOfStacks {
         public static void main(String[] args) {
-        Stack<Integer> st=new Stack();
-         Stack<Integer> st2=new Stack();
+        Stack<Integer> st=new Stack<>();
+         Stack<Integer> st2=new Stack<>();
         st.push(2);
         st.push(3);
         st.push(4);

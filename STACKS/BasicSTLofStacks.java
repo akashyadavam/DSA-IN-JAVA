@@ -3,7 +3,7 @@ import java.util.Stack;
 
 public class BasicSTLofStacks {
     public static void main(String[] args) {
-        Stack<String> st=new Stack();
+        Stack<String> st=new Stack<>();
         System.out.println(st.isEmpty());
         st.push("khushi");
         st.push("khu");

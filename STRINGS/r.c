@@ -1,6 +1,7 @@
 
 #include <stdio.h>
 #include <math.h>
+#include <string.h>
 void main(){
     // 1) float f;
     // printf("enter the value of tempertaure in farhenite:");
@@ -97,8 +98,7 @@ void main(){
 //     }
 
 
-// #include <stdio.h>
-#include <math.h> // Iske bina pow aur sqrt kaam nahi karenge
+// #include <stdio.h>#include <math.h> // Iske bina pow aur sqrt kaam nahi karenge
 
 
     // double p = pow(5, 2);   // 5 ki power 2 = 25
@@ -448,38 +448,73 @@ void main(){
 // }
 
 
-int m,n,i,j;
+// int m,n,i,j;
 
- scanf("%d",&n);
- scanf("%d",&m);int a[m][n],b[m][n],c[m][n];
+//  scanf("%d",&n);
+//  scanf("%d",&m);int a[m][n],b[m][n],c[m][n];
 
 
-for( i=0;i<m;i++){
-    for( j=0;j<n;j++){
+// for( i=0;i<m;i++){
+//     for( j=0;j<n;j++){
 
-    scanf("%d",&a[i][j]);}
+//     scanf("%d",&a[i][j]);}
+// }
+// for( i=0;i<m;i++){
+//     for( j=0;j<n;j++){
+
+//     scanf("%d",&b[i][j]);}
+// }
+// for( i=0;i<m;i++){
+//     for( j=0;j<n;j++){
+
+//     c[i][j]=a[i][j]-b[i][j];}
+// }
+
+//  for( i=0;i<m;i++){
+//     for( j=0;j<n;j++){
+
+//     printf("%d\t",c[i][j]);}
+//     printf("\n");
+// }
+
+
+
+  
+char st[10],st1[10],st2[10];
+scanf("%s",st);
+scanf("%s",st1);
+int i=0,j=0;
+while(st[i]!='\0'){
+    st2[i]=st[i];
+    i++;
+
 }
-for( i=0;i<m;i++){
-    for( j=0;j<n;j++){
-
-    scanf("%d",&b[i][j]);}
+while(st1[j]!='\0'){
+    st2[i+j]=st1[j];
+    j++;
+    
 }
-for( i=0;i<m;i++){
-    for( j=0;j<n;j++){
-
-    c[i][j]=a[i][j]-b[i][j];}
-}
-
- for( i=0;i<m;i++){
-    for( j=0;j<n;j++){
-
-    printf("%d\t",c[i][j]);}
-    printf("\n");
-}
-
-
-
-
+// st2[i+j]='\0';
+puts(st2);
+// int size=0;
+// int i=0,flag=0;
+// while(st[i]!='\0'){
+//     size++;i++;
+// }
+// for(i=0;i<size/2;i++){
+//     // char t=st[i];
+//     if(st[i]!=st[size-i-1]){
+//         flag=1;
+//     }
+//     // st[size-i-1]=t;
+// }
+// if(flag==1){
+// printf("not palindrome");
+// }
+// else{
+//     printf(" palindrome");
+// }
+     
 
     
 }

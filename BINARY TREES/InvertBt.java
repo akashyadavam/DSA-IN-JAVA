@@ -6,7 +6,7 @@ class Node{
         this.val=val;
      }
  }
-
+ 
 
 public class InvertBt {
     public static void main(String[] args) {

@@ -7,7 +7,7 @@ public class PushElementAtBUTTOM {
         
     
 
-     Stack<Integer> st=new Stack();
+     Stack<Integer> st = new Stack<>();
         st.push(3);//buttom
         st.push(4);
         st.push(5);

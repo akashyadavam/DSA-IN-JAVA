@@ -6,7 +6,7 @@ public class removeDuplicates {
     
     public static void main(String[] args) {
         String s=  "abbaca";
-         Stack<Character> st=new Stack();
+         Stack<Character> st=new Stack<>();
          for(int i=0;i<s.length();i++){
             char ch=s.charAt(i);
             if(st.size()==0) st.push(ch);
