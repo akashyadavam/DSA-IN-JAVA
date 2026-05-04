@@ -1,9 +1,12 @@
-import java.util. ArrayList;
-import java.util.Stack;
+import java.util.Scanner;
 
 public class a {
     public static void main(String[] args) {
-       
+
+    //  ArrayList<Integer> list = new ArrayList<>();
+    
+
+
 
     }
     
