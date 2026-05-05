@@ -5,8 +5,6 @@ public class oops4 {
         students s3=new students(123);
         students s1=new students();
        
-        
-        
     }
     
 }
