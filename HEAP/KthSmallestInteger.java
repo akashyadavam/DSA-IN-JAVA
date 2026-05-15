@@ -1,4 +1,4 @@
-package HEAP;
+
 import java.util.*;
 
 public class KthSmallestInteger {

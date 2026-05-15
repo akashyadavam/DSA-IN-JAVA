@@ -1,4 +1,3 @@
-package HEAP;
 import java.util.*;
 
 class Student implements Comparable<Student> {

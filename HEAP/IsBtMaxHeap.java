@@ -1,4 +1,3 @@
-package HEAP;
 class Node {
     int data;
     Node left,right;

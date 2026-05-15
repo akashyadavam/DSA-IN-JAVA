@@ -1,5 +1,3 @@
-package HEAP;
-
 import java.util.PriorityQueue;
 
 public class MinimumCost {
