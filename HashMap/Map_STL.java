@@ -1,4 +1,4 @@
-// package HashMap;
+package HashMap;
 
 import java.util.HashMap;
 
@@ -15,7 +15,7 @@ public class Map_STL {
           System.out.println(map.get("iyer"));
           
 
-           System.out.print(map+" "+map.size());System.out.println();
+         System.out.print(map+" "+map.size());System.out.println(); 
            map.put("iyer",32 ); System.out.print(map+" "+map.size());
            System.out.println();
            for(String key:map.keySet()){
