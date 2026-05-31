@@ -239,8 +239,9 @@ void main(){
 //  scanf("%d",&n);
 // int arr[n];
 // for(i=0;i<n;i++){
-//     scanf("%d",&arr[i]);
-//     max=arr[i];
+//     scanf("%d",&arr[i]);}
+// max=arr[0];
+//     for(i=0;i<n;i++){
 //     if(arr[i]>max){
 //         max=arr[i];
 //     }
@@ -257,7 +258,7 @@ void main(){
 
 // for( i=0;i<n-1;i++){
 //     for( j=i;j<n;j++){
-//          min = arr[i]; 
+//         min = arr[i]; 
 //         mindx = i;
         
 //         if(arr[j]<min){
@@ -290,7 +291,7 @@ void main(){
 //     for( j=i+1;j<n;j++){
         
         
-//         if(arr[j]>arr[i]){
+//         if(arr[i]<arr[j]){
            
 //         int temp=arr[i];
 //         arr[i]=arr[j];
