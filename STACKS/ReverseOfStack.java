@@ -5,10 +5,10 @@ import java.util.Stack;
 
 public class ReverseOfStack {
     public static void main(String[] args) {
-        Stack<Integer> st=new Stack<>();
+ Stack<Integer> st=new Stack<>();
         ArrayList<Integer> ans=new ArrayList<>();
 
-         st.push(2);
+        st.push(2);
         st.push(3);
         st.push(4);
         st.push(5);
@@ -46,8 +46,5 @@ public class ReverseOfStack {
         int top=st.pop();
         pushatbottom(st,ele);
         st.push(top);
-
-
-}
-    
+}   
 }
